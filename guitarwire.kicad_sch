@@ -170,6 +170,267 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Humbucker_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HB_NECK1"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Humbucker_1_0_1"
+				(rectangle
+					(start -6.35 8.89)
+					(end 6.35 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Humbucker_1_1_1"
+				(pin output line
+					(at 8.89 6.35 180)
+					(length 2.54)
+					(name "HB_WHITE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "HB_BLACK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "HB_RED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -5.08 180)
+					(length 2.54)
+					(name "HB_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -8.89 180)
+					(length 2.54)
+					(name "HB_SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -257,23 +518,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 10.414 0)
+			(property "Reference" "HB_BRIDGE1"
+				(at 0 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -303,7 +564,7 @@
 			(symbol "Humbucker_0_1"
 				(rectangle
 					(start -6.35 8.89)
-					(end 6.35 -7.62)
+					(end 6.35 -11.43)
 					(stroke
 						(width 0)
 						(type default)
@@ -379,6 +640,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -8.89 180)
+					(length 2.54)
+					(name "HB_SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -745,6 +1024,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 44.45 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37ad0fbc-642d-4a58-a370-b15476eca82e")
+	)
+	(junction
+		(at 44.45 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab751d9f-2fe4-4447-b342-ceae4ecf9d1f")
+	)
 	(wire
 		(pts
 			(xy 48.26 58.42) (xy 48.26 62.23)
@@ -757,13 +1048,23 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 62.23) (xy 58.42 62.23)
+			(xy 44.45 99.06) (xy 44.45 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "159eaab2-fb87-4c9f-b4b2-e937d50fb107")
+		(uuid "06f3148d-1ed6-490e-bd10-bc242abe3c48")
+	)
+	(wire
+		(pts
+			(xy 102.87 66.04) (xy 105.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a7abfa-5915-4153-80f7-17494e66c956")
 	)
 	(wire
 		(pts
@@ -777,53 +1078,73 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 91.44) (xy 53.34 91.44)
+			(xy 43.18 73.66) (xy 44.45 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32e95523-c38f-4922-983d-7ac93a7b9796")
+		(uuid "311f6473-f4e9-4741-b8b5-820cf82cc389")
 	)
 	(wire
 		(pts
-			(xy 58.42 48.26) (xy 67.31 48.26)
+			(xy 43.18 91.44) (xy 68.58 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3359e5cf-0508-4eb5-8176-8e57fe342da8")
+		(uuid "39776727-00f7-46ac-8aa6-e1ecac2ddbc6")
 	)
 	(wire
 		(pts
-			(xy 58.42 29.21) (xy 69.85 29.21)
+			(xy 106.68 50.8) (xy 110.49 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "475ab989-2981-4904-be90-c2890d704e7e")
+		(uuid "3ef7c4a5-fe15-44ef-b9b4-de31ffd343c2")
 	)
 	(wire
 		(pts
-			(xy 58.42 62.23) (xy 58.42 48.26)
+			(xy 44.45 73.66) (xy 44.45 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "547ab7ef-ddf4-46ab-92d8-eddfb888c501")
+		(uuid "4491a870-8a0a-4d4a-925a-4e95bd5dc200")
 	)
 	(wire
 		(pts
-			(xy 53.34 69.85) (xy 67.31 69.85)
+			(xy 43.18 95.25) (xy 44.45 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65b06ee8-f681-4a48-b51e-44b8148b1d69")
+		(uuid "5bbcce2c-2644-4142-a869-9019e5a64b16")
+	)
+	(wire
+		(pts
+			(xy 43.18 66.04) (xy 68.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61535b5f-e898-48ec-a588-e0cdbd30b590")
+	)
+	(wire
+		(pts
+			(xy 102.87 69.85) (xy 105.41 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705de347-1e6c-4045-8366-b5325f8b7790")
 	)
 	(wire
 		(pts
@@ -837,6 +1158,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 46.99) (xy 110.49 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74929ecf-fe68-45f2-8c18-aa1a5de0d3b9")
+	)
+	(wire
+		(pts
 			(xy 43.18 58.42) (xy 48.26 58.42)
 		)
 		(stroke
@@ -847,23 +1178,33 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 66.04) (xy 67.31 66.04)
+			(xy 43.18 99.06) (xy 44.45 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b17093f-acd2-4dcc-b514-9cce9c4963e3")
+		(uuid "976c8f65-aff7-4ce7-888a-e79f4688b887")
 	)
 	(wire
 		(pts
-			(xy 58.42 44.45) (xy 58.42 29.21)
+			(xy 43.18 69.85) (xy 44.45 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "967bdfe4-1cac-4220-8aab-1d66a92f9608")
+		(uuid "9f37e805-c065-49ce-8d07-fc3eb774df87")
+	)
+	(wire
+		(pts
+			(xy 102.87 73.66) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc632b4-cf2c-432a-9b99-5a5c7c1d731f")
 	)
 	(wire
 		(pts
@@ -877,26 +1218,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 91.44) (xy 53.34 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c491e6a1-87c4-47d2-b0d8-f7b8b6428a52")
-	)
-	(wire
-		(pts
-			(xy 67.31 44.45) (xy 58.42 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9876a86-8954-4eed-b474-9e6983ef0086")
-	)
-	(wire
-		(pts
 			(xy 43.18 62.23) (xy 48.26 62.23)
 		)
 		(stroke
@@ -905,8 +1226,18 @@
 		)
 		(uuid "d31f22d8-af5d-4c3c-8539-8eeb0298bd38")
 	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 156.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04813b0-c28d-422c-ba07-2d7a75d6bcaa")
+	)
 	(label "NECK_MERGE"
-		(at 44.45 83.82 0)
+		(at 44.45 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -915,18 +1246,8 @@
 		)
 		(uuid "0abe0333-a8e3-4d4f-ad20-d6dfc247e436")
 	)
-	(label "SWITCH_OUT"
-		(at 58.42 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "20b4d79b-82a4-48a0-aa2a-8e7e442a3cfe")
-	)
 	(label "BRIDGE_INPUT"
-		(at 48.26 66.04 0)
+		(at 54.61 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -936,7 +1257,7 @@
 		(uuid "2516cc9e-60e0-4f4e-9937-25764d0e9688")
 	)
 	(label "NECK_INPUT"
-		(at 53.34 91.44 0)
+		(at 54.61 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -944,16 +1265,6 @@
 			(justify left bottom)
 		)
 		(uuid "2ce7225a-0b67-415f-9e8f-23f494a221aa")
-	)
-	(label "VOLUME_OUT"
-		(at 58.42 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9eb07fdd-82a1-4b3c-b397-0427a602f0e7")
 	)
 	(label "BRIDGE_MERGE"
 		(at 44.45 58.42 0)
@@ -965,9 +1276,273 @@
 		)
 		(uuid "e39f28e9-627c-4c7a-8372-db2695566bd9")
 	)
+	(global_label "OUTPUT"
+		(shape input)
+		(at 111.76 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01fbd52d-a510-4557-9caa-c0c01ad2b869")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.9419 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN_NECK"
+		(shape input)
+		(at 68.58 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fd88c28-c7d1-424a-a191-a3667c753122")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.4876 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN_BRIDGE"
+		(shape input)
+		(at 102.87 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38d08db6-7d0b-4677-8126-78111f34891e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.1481 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN_NECK"
+		(shape input)
+		(at 111.76 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49eed63b-f119-4cd0-a021-ae921d8af02f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.6676 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN_BRIDGE"
+		(shape input)
+		(at 68.58 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "549cd130-d153-4985-a675-920c8d1898bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.3019 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN_BRIDGE"
+		(shape input)
+		(at 111.76 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e03482b-e811-4d1b-861e-c15f52fbaf18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.4819 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTPUT"
+		(shape input)
+		(at 152.4 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85627502-293e-44c5-bc01-b54ba3ed7acd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.2181 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN_NECK"
+		(shape input)
+		(at 102.87 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab804bac-1793-4daf-a577-02d2c74cb40b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.9624 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT_SWITCH"
+		(shape input)
+		(at 111.76 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbe99c30-9759-4883-9895-25b95a57e4bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.1752 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT_SWITCH"
+		(shape input)
+		(at 102.87 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2d7abd3-6882-4d7a-9a08-c1e9cc59e638")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.4548 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTPUT"
+		(shape input)
+		(at 106.68 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c46e4be2-09df-4a68-8a2d-68234133639d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.4981 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT_SWITCH"
+		(shape input)
+		(at 106.68 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5f8978d-bcf9-4593-8d21-2e637ade8dc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.2648 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 74.93 26.67 0)
+		(at 161.29 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -976,7 +1551,7 @@
 		(fields_autoplaced yes)
 		(uuid "02dfb974-8d79-43cf-8cbe-dbf2bb853728")
 		(property "Reference" "J1"
-			(at 76.2 26.6699 0)
+			(at 162.56 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,7 +1560,7 @@
 			)
 		)
 		(property "Value" "JACK_OUT"
-			(at 76.2 29.2099 0)
+			(at 162.56 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,8 +1568,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 74.93 26.67 0)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+			(at 161.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 26.67 0)
+			(at 161.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1587,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 74.93 26.67 0)
+			(at 161.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,8 +1739,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "123b8239-8136-4612-a5e1-67cb52057726")
+		(property "Reference" "TP5"
+			(at 108.204 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 117.094 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1862c42b-ac2e-4907-bfea-2beeadae5bc7")
+		)
+		(instances
+			(project ""
+				(path "/e8c88776-e8c8-4776-a8c8-8776e8c88776"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 43.18 95.25 90)
+		(at 44.45 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1174,7 +1813,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d19fe6f-1f20-444b-91fb-a2d80afff259")
 		(property "Reference" "#PWR02"
-			(at 49.53 95.25 0)
+			(at 50.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,7 +1822,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 95.2499 90)
+			(at 48.26 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 95.25 0)
+			(at 44.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 95.25 0)
+			(at 44.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +1849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 95.25 0)
+			(at 44.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1231,8 +1870,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29fd8fc6-16e2-4ecb-a878-47119b890af3")
+		(property "Reference" "TP2"
+			(at 110.236 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 121.92 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4bafa5b-0826-466a-9bda-8308e6dc35c4")
+		)
+		(instances
+			(project ""
+				(path "/e8c88776-e8c8-4776-a8c8-8776e8c88776"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 67.31 40.64 270)
+		(at 110.49 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1240,7 +1945,7 @@
 		(dnp no)
 		(uuid "312c0de8-f522-4e9b-bd97-1fcef5680bfa")
 		(property "Reference" "#PWR05"
-			(at 60.96 40.64 0)
+			(at 104.14 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1954,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.008 40.64 90)
+			(at 107.188 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,7 +1963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 40.64 0)
+			(at 110.49 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1267,7 +1972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 40.64 0)
+			(at 110.49 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1276,7 +1981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 40.64 0)
+			(at 110.49 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +2027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical"
 			(at 34.29 64.77 0)
 			(effects
 				(font
@@ -1361,6 +2066,9 @@
 		(pin "1"
 			(uuid "91874181-2a59-4ab9-b155-fc69bf180557")
 		)
+		(pin "5"
+			(uuid "1c922f01-ee1a-4616-a9af-caa06dd8abf5")
+		)
 		(instances
 			(project ""
 				(path "/e8c88776-e8c8-4776-a8c8-8776e8c88776"
@@ -1372,7 +2080,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 69.85 90)
+		(at 44.45 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1381,7 +2089,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ab6a13f-73d1-4a7e-81a2-30a74bda10b0")
 		(property "Reference" "#PWR01"
-			(at 49.53 69.85 0)
+			(at 50.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,7 +2098,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 69.8499 90)
+			(at 48.26 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +2107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 69.85 0)
+			(at 44.45 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +2116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 69.85 0)
+			(at 44.45 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +2125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 69.85 0)
+			(at 44.45 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +2147,7 @@
 	)
 	(symbol
 		(lib_id "guitar_parts:Selector")
-		(at 74.93 63.5 180)
+		(at 113.03 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1448,7 +2156,7 @@
 		(fields_autoplaced yes)
 		(uuid "690e52eb-de25-4640-abe8-b8c3c741596d")
 		(property "Reference" "PICKUP_SELECTOR1"
-			(at 83.82 62.8649 0)
+			(at 121.92 66.6749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +2165,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 83.82 65.4049 0)
+			(at 121.92 69.2149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,8 +2173,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
-			(at 74.93 63.5 0)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical"
+			(at 113.03 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +2183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 63.5 0)
+			(at 113.03 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +2192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 63.5 0)
+			(at 113.03 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,6 +2222,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bda91ea-ae7b-4954-9dc7-3af29f405a39")
+		(property "Reference" "TP4"
+			(at 108.204 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 117.602 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 111.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "367d35fe-d88d-43bb-b65f-1f34f76b10e6")
+		)
+		(instances
+			(project ""
+				(path "/e8c88776-e8c8-4776-a8c8-8776e8c88776"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Humbucker_1")
 		(lib_id "guitar_parts:Humbucker")
 		(at 34.29 90.17 0)
 		(unit 1)
@@ -1521,10 +2294,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e94397f-dd1a-4ff6-997c-ac243a0153db")
 		(property "Reference" "HB_NECK1"
-			(at 34.29 76.2 0)
+			(at 34.29 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,14 +2304,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 34.29 78.74 0)
+			(at 34.29 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical"
 			(at 34.29 90.17 0)
 			(effects
 				(font
@@ -1577,6 +2349,9 @@
 		)
 		(pin "1"
 			(uuid "7248b186-7248-4d5a-a485-8a1cf8442502")
+		)
+		(pin "5"
+			(uuid "8252dc1a-04aa-4dd0-9a06-2609b2ced48c")
 		)
 		(instances
 			(project ""
@@ -1717,16 +2492,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 26.67 270)
+		(at 111.76 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8bfe7e2-4769-4f1f-b63e-73d5ed4851a7")
-		(property "Reference" "#PWR04"
-			(at 63.5 26.67 0)
+		(uuid "9eb2fa85-5971-4a2c-b5f5-2dea55c82a53")
+		(property "Reference" "#PWR06"
+			(at 118.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,16 +2509,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 26.6699 90)
+			(at 116.84 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 26.67 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +2526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 26.67 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +2535,74 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 26.67 0)
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d43dd78-bef8-4ca6-9ddb-2922bdc5b5db")
+		)
+		(instances
+			(project ""
+				(path "/e8c88776-e8c8-4776-a8c8-8776e8c88776"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8bfe7e2-4769-4f1f-b63e-73d5ed4851a7")
+		(property "Reference" "#PWR04"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,8 +2623,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaced827-1df5-4a6d-a766-3514ab028018")
+		(property "Reference" "TP1"
+			(at 110.109 91.313 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 129.032 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1503e3e7-12e3-49b5-ba79-8b41cc92f4f2")
+		)
+		(instances
+			(project ""
+				(path "/e8c88776-e8c8-4776-a8c8-8776e8c88776"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "guitar_parts:Volume")
-		(at 73.66 43.18 180)
+		(at 116.84 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1793,7 +2699,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad8b6d43-4755-459f-9d38-54afd341ba25")
 		(property "Reference" "VOLUME1"
-			(at 78.74 43.1799 0)
+			(at 121.92 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +2708,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 78.74 45.7199 0)
+			(at 121.92 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,8 +2716,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 73.66 43.18 0)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical"
+			(at 116.84 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +2726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 43.18 0)
+			(at 116.84 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +2735,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 43.18 0)
+			(at 116.84 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +2763,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 58.42 270)
+		(at 105.41 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1866,7 +2772,7 @@
 		(fields_autoplaced yes)
 		(uuid "b458fe1a-1fbe-4424-8e92-d674a62fad15")
 		(property "Reference" "#PWR03"
-			(at 60.96 58.42 0)
+			(at 99.06 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +2781,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 58.4199 90)
+			(at 101.6 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +2790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 58.42 0)
+			(at 105.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +2799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 58.42 0)
+			(at 105.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,7 +2808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 58.42 0)
+			(at 105.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,12 +2817,76 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bbcce2c-2644-4142-a869-9019e5a64b16")
+			(uuid "5bbcce2c-2644-4142-a869-9019e5a64b17")
 		)
 		(instances
 			(project ""
 				(path "/e8c88776-e8c8-4776-a8c8-8776e8c88776"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5291e7b-b44a-4cc3-a750-94383a798ad9")
+		(property "Reference" "TP3"
+			(at 108.204 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 117.348 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2307603f-52db-44dc-b92e-fccf85be9f59")
+		)
+		(instances
+			(project ""
+				(path "/e8c88776-e8c8-4776-a8c8-8776e8c88776"
+					(reference "TP3")
 					(unit 1)
 				)
 			)

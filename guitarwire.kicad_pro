@@ -505,7 +505,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "guitarwire.step",
       "svg": "",
       "vrml": ""
     },
